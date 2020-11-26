@@ -1,6 +1,8 @@
 from diaries.DiarySample import DiarySample
+from diaries.LongMineDiary import LongMineDiary
 
-diaries = [DiarySample(), ]
+
+diaries = [DiarySample(), LongMineDiary(), ]
 
 for d in diaries:
     print("---------------------------------")
