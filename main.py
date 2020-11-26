@@ -4,12 +4,14 @@ from diaries.KawaDiary import KawaDiary
 from diaries.Diaryk19051 import Diaryk19051
 from diaries.LiumDiary import LiumDiary
 
+from diaries.LongMineDiary import LongMineDiary
+
 diaries = [DiarySample(),
-    Diaryk19051(),
-    KawaDiary(),
-    KawaiDiaryNew(),
-    LiumDiary(),
-    ]
+           Diaryk19051(),
+           KawaDiary(),
+           KawaiDiaryNew(),
+           LongMineDiary(),
+           LiumDiary(),]
 
 for d in diaries:
     print("---------------------------------")
